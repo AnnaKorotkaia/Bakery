@@ -1,0 +1,111 @@
+body {background: #F0F7C6;
+margin: 0px,150px,0px,150px;
+width: 1440px;
+height: 1024px}
+.header {position: absolute;
+         width: 1140px;
+         height: 189px;
+         left: 150px;
+         top: 0px;
+         opacity: 0.5;
+         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.logo {position: absolute;
+       width: 360px;
+       height: 189px;
+       left: 150px;
+       top: 0px;
+       opacity: 0.5;
+}
+h1 {position: absolute;
+    width: 653px;
+    height: 84px;
+    left: 575px;
+    top: 209px;
+    font-family: Old Standard TT;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 79px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #E85151;
+}
+.menu {position:absolute;
+       width: 263px;
+       height: 84px;
+       left: 149px;
+       border: 1px solid #D4D821;
+       font-family: Old Standard TT;
+       font-style: normal;
+       font-weight: bold;
+       font-size: 36px;
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       color: #000000;
+}
+a {color:#000000}
+.metro-left {position:absolute;
+             width: 428px;
+             height: 40px;
+             left: 442px;
+             top: 313px;
+             display: block;
+}
+.metro-right {position:absolute;
+             width: 500px;
+             height: 30px;
+             left: 870px;
+             top: 313px;
+             display: block;
+}
+.metro {position:absolute;
+        width: 428px;
+        height: 40px;
+        top: 120px;
+        display: block;
+}
+.img {width: 8px;
+      height: 8px;
+}
+.metro-name {font-family: Old Standard TT;
+             font-style: normal;
+             font-weight: bold;
+             font-size: 30px;
+             line-height: 25px;
+             text-align: center;
+             color: #000000;
+}
+.address {font-family: Old Standard TT;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 25px;
+          text-align: center;
+          color: #000000;
+}
+.time {font-family: Old Standard TT;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 25px;
+          text-align: center;
+          color: #000000;
+}
+.text {position: absolute;
+       width: 351px;
+       height: 36px;
+       top: 200px;
+       font-family: Old Standard TT;
+       font-style: normal;
+       font-weight: bold;
+       font-size: 24px;
+       line-height: 25px;
+       text-transform: uppercase;
+       color: #000000;}
+.map {width: 841px;
+      height: 500px;
+      top: 190px;}
+

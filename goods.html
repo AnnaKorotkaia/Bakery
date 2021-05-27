@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS\style_goods.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="JavaScript\goods.js"></script>
+    <title>Ассортимент</title>
+</head>
+<body>
+    <header>
+        <img src="Image\выпечка.jpg" alt="Картинка" class="header">
+        <img src="Image\лого.jpg" alt="Картинка" class="logo">
+        <h1>Ассортимент</h1>
+    </header>
+    <p class="menu" style="top: 209px; line-height: 84px"><a href="index.html"> О компании</a></p>
+    <p class="menu" style="top: 300px; line-height: 44px"><a href="address.html"> Адреса булочных</a></p>
+    <p class="menu" style="top: 391px; line-height: 84px"><a href="goods.html"> Ассортимент</a></p>
+    <p class="menu" style="top: 482px; line-height: 84px"><a href="job.html"> Вакансии</a></p>
+    <p class="menu" style="top: 573px; line-height: 84px"><a href="contact.html"> Контакты</a></p>
+    <div class="caption">
+        <p>Круассан</p>
+        <div class="pic">
+            <img src="Image\круассан.jpg" alt="Картинка">
+        </div>
+        <div class="composition">
+            <p>Состав:</p>
+            <div class="text">
+                <p>мука пшеничная в/с, масло сливочное, вода питьевая, дрожжи хлебопекарные, сахар, яйцо, соль, глютен пшеничный, дрожжи сухие хлебопекарные, средство для обработки муки (антиокислитель Аскорбиновая кислота, ферментные препараты). Может содержать орехи и семена кунжута.</p>
+            </div>
+        </div>
+        <div class="detail">
+            <a class="btn button-primary show-large" href="#" role="button">Подробнее</a>
+        </div>
+    </div>
+    <div class="modal composition-large" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Круассан</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="Image\круассан.jpg" alt="Картинка">
+                    <p>Состав:
+                        <br><br>мука пшеничная в/с, масло сливочное, вода питьевая, дрожжи хлебопекарные, сахар, яйцо, соль, глютен пшеничный, дрожжи сухие хлебопекарные, средство для обработки муки (антиокислитель Аскорбиновая кислота, ферментные препараты).
+                        Может содержать орехи и семена кунжута.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
